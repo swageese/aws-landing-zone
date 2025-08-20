@@ -1,15 +1,15 @@
-# Ignore system files
-.vscode/
-AppData/
-*.db
-*.db-shm
-*.db-wal
-
-# Ignore AWS credentials
-.aws/
-
-# Ignore Terraform local state files
+# Terraform
 *.tfstate
 *.tfstate.*
 .terraform/
 .terraform.lock.hcl
+crash.log
+
+# Editors/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local credentials / junk
+.aws/
+AppData/
