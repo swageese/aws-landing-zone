@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket         = "hemanth-landingzones-tfstate"
+    bucket         = "hemanth-landingzone-tfstate"
     key            = "env/dev/terraform.tfstate"
-    region         = "ap-south-1"
+    region         = "us-east-1"
     dynamodb_table = "hemanth-landingzone-locks"
     encrypt        = true
   }
